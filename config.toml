@@ -1,3 +1,42 @@
-baseURL = "http://example.org/"
+#baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+DefaultContentLanguage = "ja"
+title = "Daily Santaro "
+theme = "dimension"
+#googleAnalytics = "UA-"
+
+[params]
+    author = "Kotaro Sonoda"
+    description = ""
+    copyrightPublishYear = "2020"
+    # copyrightText = "<a href=\"https://dmitrypechnikov.xyz\">Dmitry Pechnikov</a>"
+
+    # disableLogo = false
+    # logoImage = ""
+    # logoIcon = "gem"
+    # titleFontSize = "2.25rem"
+    # subtitleFontSize = "0.8rem"
+    # baseFontSize = "1.0rem"
+    # overlayOpacityPercentage = "50"
+    # disableImageOverlay = false
+    # modalWidth = "40rem"
+
+    # customCSS = "custom.css"
+
+
+[languages]
+    [languages.en]
+        languageName = "English"
+        weight = 1
+
+    [languages.ru]
+        languageName = "Russian"
+        weight = 2
+        title = "Dimension"
+        [languages.ru.params]
+            author = "Дмитрий Печников"
+            description = "Тема для генератора сайтов Hugo. Создана на основе HTML шаблона Dimension от HTML5 UP."
+
+
+[permalinks]
+    "" = "/#:filename"
