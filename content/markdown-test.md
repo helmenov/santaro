@@ -1,7 +1,7 @@
 ---
 title: "Markdown Test"
 date: 2018-10-11T11:08:37+09:00
-draft: true
+draft: false
 ---
 
 どうかな
