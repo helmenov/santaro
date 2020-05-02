@@ -29,14 +29,9 @@ theme = "dimension"
         languageName = "English"
         weight = 1
 
-    [languages.ru]
-        languageName = "Russian"
+    [languages.ja]
+        languageName = "Japanese"
         weight = 2
-        title = "Dimension"
-        [languages.ru.params]
-            author = "Дмитрий Печников"
-            description = "Тема для генератора сайтов Hugo. Создана на основе HTML шаблона Dimension от HTML5 UP."
-
 
 [permalinks]
     "" = "/#:filename"
